@@ -3,10 +3,10 @@ Created an online grocery store database Created a MySQL online grocery store da
 
 ## Objective
 ----------
-• Assist at risk New Yorkers to perform food shopping without visiting a crowded store.
-• Create a database to track purchases, products and delivery for an on- line grocery store.
-• Create searches and output using SQL
-• Manage security
+- Assist at risk New Yorkers to perform food shopping without visiting a crowded store.
+- Create a database to track purchases, products and delivery for an on- line grocery store.
+- Create searches and output using SQL
+- Manage security
 
 ## Database Requirements 
 ----------
