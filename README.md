@@ -36,7 +36,6 @@ The database design includes the following requirements:
 - Create descriptive column labels for all output. For instance, don’t display a column label named count(*)
 
 ## Questions
-- Replace underlined items with values of your own choosing. For instance, replace the underlined terms last year with your own date range.
 - Format all output. For instance, all numbers will display with commas, dollar values will display with a $ prefix and create descriptive labels for all columns.
 - Be very descriptive explaining your results. For instance, use appropriate terminology, print screens and SQL
 1. Identify customers who have not completed a purchase/delivery survey in the last 6 months. Display the customer name and email. Use a nested select to answer this question.
