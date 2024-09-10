@@ -1,13 +1,17 @@
-# grocery_database
-Created an online grocery store database Created a MySQL online grocery store database, enabling secure tracking of purchases, products, and deliveries and performed complex SQL queries
+# Online Grocery Store Database
+Author: Emily Haller 
+Created an online grocery store database Created a MySQL online grocery store database, enabling secure tracking of purchases, products, and deliveries and performed complex SQL querie
 
-Objective
+## Objective
+----------
 • Assist at risk New Yorkers to perform food shopping without visiting a crowded store.
 • Create a database to track purchases, products and delivery for an on- line grocery store.
 • Create searches and output using SQL
 • Manage security
-Database requirements
-Your design must include the following requirements:
+
+## Database Requirements 
+----------
+The database design includes the following requirements:
 • Customers purchase products from the grocery store. Identify the
 customer name, billing address, account, password and phone.
 • Staff assist in the checkout, packing and delivery of customer orders.
@@ -19,12 +23,25 @@ Identify the staff name, address, email and department. Staff can be assigned to
 • Customers can rate products offered by the grocery. Track the customer who provides the rating, product rated, method of rating (number, stars, letter grade, etc.), date of rating and rating comment. Customers can enter open ended narrative text for each product sold by the grocery. For instance, “The Kellogg’s Raisin Bran cereal is great, although it doesn’t include as many raisins as the Post Raisin Bran cereal.” One customer can rate many products.
 • Customers can complete a survey of the order/delivery. Track the customer who completes the survey, date of survey, method of rating the survey (number, stars, letter grade, etc.) and rating comments. A customer can only complete one survey for each order.
 • Security
-o Staff are restricted from accessing customer credit card numbers,
+ - Staff are restricted from accessing customer credit card numbers,
        expiration dates.
+ - Customers can view past orders, but NOT change past orders.
+ - Staff can’t delete purchases after they are entered in the system.
+• Include at least two sequence numbers to create unique values.
 
-o Customers can view past orders, but NOT change past orders.
-o Staff can’t delete purchases after they are entered in the system. • Include at least two sequence numbers to create unique values.
-Questions
+## Additional Design Requirements 
+----------
+• Include all SQL commands to create your database and answer the questions including create tables, select, update, insert data, alter column names and alter column types.
+• Normalize your database to third normal form.
+• Output for all questions must include at least one row displayed.
+• Identify and create primary keys for all tables.
+• Create foreign keys to enforce referential integrity.
+• Include the question, SQL command to answer the question and output from the
+SQL command.
+• Create descriptive column labels for all output. For instance, don’t display a
+column label named count(*)
+
+## Questions
 • Replace underlined items with values of your own choosing. For instance, replace the underlined terms last year with your own date range.
 • Format all output. For instance, all numbers will display with commas, dollar values will display with a $ prefix and create descriptive labels for all columns.
 • Be very descriptive explaining your results. For instance, use appropriate terminology, print screens and SQL
@@ -40,14 +57,4 @@ Questions
 10. Staff can’t delete purchases after they are entered in the database. Create SQL to implement. Demonstrate your implementation will prevent staff from deleting purchases.
        
 11. The product Raisin Bran is no longer being offered by the grocery store and being available for 3 years. Identify the SQL to implement.
-12. Use the SQL DESCRIBE operation to display the structure for all tables. 13. Display the version of MySQL
-Additional Design Requirements
-• Include all SQL commands to create your database and answer the questions including create tables, select, update, insert data, alter column names and alter column types.
-• Normalize your database to third normal form.
-• Output for all questions must include at least one row displayed.
-• Identify and create primary keys for all tables.
-• Create foreign keys to enforce referential integrity.
-• Include the question, SQL command to answer the question and output from the
-SQL command.
-• Create descriptive column labels for all output. For instance, don’t display a
-column label named count(*)
+12. Use the SQL DESCRIBE operation to display the structure for all tables. 13. Display the version 
