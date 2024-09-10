@@ -20,10 +20,10 @@ The database design includes the following requirements:
 - Customers can rate products offered by the grocery. Track the customer who provides the rating, product rated, method of rating (number, stars, letter grade, etc.), date of rating and rating comment. Customers can enter open ended narrative text for each product sold by the grocery. For instance, “The Kellogg’s Raisin Bran cereal is great, although it doesn’t include as many raisins as the Post Raisin Bran cereal.” One customer can rate many products.
 - Customers can complete a survey of the order/delivery. Track the customer who completes the survey, date of survey, method of rating the survey (number, stars, letter grade, etc.) and rating comments. A customer can only complete one survey for each order.
 - Security
- - Staff are restricted from accessing customer credit card numbers, expiration dates.
- - Customers can view past orders, but NOT change past orders.
- - Staff can’t delete purchases after they are entered in the system.
-- Include at least two sequence numbers to create unique values.
+  -  Staff are restricted from accessing customer credit card numbers, expiration dates.
+  -  Customers can view past orders, but NOT change past orders.
+  -  Staff can’t delete purchases after they are entered in the system.
+  -  Include at least two sequence numbers to create unique values.
 
 ## Additional Design Requirements 
 ----------
