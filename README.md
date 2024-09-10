@@ -11,10 +11,8 @@ Created an online grocery store database Created a MySQL online grocery store da
 ## Database Requirements 
 ----------
 The database design includes the following requirements:
-• Customers purchase products from the grocery store. Identify the
-customer name, billing address, account, password and phone.
-• Staff assist in the checkout, packing and delivery of customer orders.
-Identify the staff name, address, email and department. Staff can be assigned to many departments. In addition, identify current and all previous job titles and corresponding salary.
+• Customers purchase products from the grocery store. Identify the customer name, billing address, account, password and phone.
+• Staff assist in the checkout, packing and delivery of customer orders. Identify the staff name, address, email and department. Staff can be assigned to many departments. In addition, identify current and all previous job titles and corresponding salary.
 • Grocery products are saved in warehouses around NYC. Identify the warehouse location and warehouse type (refrigerated, kitchen used to prepare foods, etc.)
 • Products are stored in warehouses. Identify the product name, product type (produce, fish, meat, dairy, etc.), calories, sodium, quantity, expiration date and warehouse where the product is stored. One product can be stored in multiple warehouses.
 • Customers purchase products. Identify the product purchased, price, method of payment and delivery address.
@@ -22,8 +20,7 @@ Identify the staff name, address, email and department. Staff can be assigned to
 • Customers can rate products offered by the grocery. Track the customer who provides the rating, product rated, method of rating (number, stars, letter grade, etc.), date of rating and rating comment. Customers can enter open ended narrative text for each product sold by the grocery. For instance, “The Kellogg’s Raisin Bran cereal is great, although it doesn’t include as many raisins as the Post Raisin Bran cereal.” One customer can rate many products.
 • Customers can complete a survey of the order/delivery. Track the customer who completes the survey, date of survey, method of rating the survey (number, stars, letter grade, etc.) and rating comments. A customer can only complete one survey for each order.
 • Security
- - Staff are restricted from accessing customer credit card numbers,
-       expiration dates.
+ - Staff are restricted from accessing customer credit card numbers, expiration dates.
  - Customers can view past orders, but NOT change past orders.
  - Staff can’t delete purchases after they are entered in the system.
 • Include at least two sequence numbers to create unique values.
@@ -35,10 +32,8 @@ Identify the staff name, address, email and department. Staff can be assigned to
 • Output for all questions must include at least one row displayed.
 • Identify and create primary keys for all tables.
 • Create foreign keys to enforce referential integrity.
-• Include the question, SQL command to answer the question and output from the
-SQL command.
-• Create descriptive column labels for all output. For instance, don’t display a
-column label named count(*)
+• Include the question, SQL command to answer the question and output from the SQL command.
+• Create descriptive column labels for all output. For instance, don’t display a column label named count(*)
 
 ## Questions
 • Replace underlined items with values of your own choosing. For instance, replace the underlined terms last year with your own date range.
@@ -53,7 +48,6 @@ column label named count(*)
 7. Usingpurchasesmadeinthelastmonth,identifycustomerswith children. Display the customer name and email. Order the output by customer name. Replace children with other demographic characteristics. For instance, dog owners, seniors, vegetarians, Tesla car owners, etc.
 8. Identify staff with the most deliveries in the last month. Display two columns: staff and number of deliveries. Display one row for each distinct staff. Display the staff with the most deliveries first.
 9. Staff are restricted from accessing customer credit card number and expiration dates. Create SQL to implement. Demonstrate your implementation will prevent staff from viewing customer credit card data.
-10. Staff can’t delete purchases after they are entered in the database. Create SQL to implement. Demonstrate your implementation will prevent staff from deleting purchases.
-       
+10. Staff can’t delete purchases after they are entered in the database. Create SQL to implement. Demonstrate your implementation will prevent staff from deleting purchases.     
 11. The product Raisin Bran is no longer being offered by the grocery store and being available for 3 years. Identify the SQL to implement.
 12. Use the SQL DESCRIBE operation to display the structure for all tables. 13. Display the version 
