@@ -23,7 +23,7 @@ The database design includes the following requirements:
   -  Staff are restricted from accessing customer credit card numbers, expiration dates.
   -  Customers can view past orders, but NOT change past orders.
   -  Staff can’t delete purchases after they are entered in the system.
-  -  Include at least two sequence numbers to create unique values.
+-  Include at least two sequence numbers to create unique values.
 
 ## Additional Design Requirements 
 ----------
